@@ -4,3 +4,9 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/alaindescartes/HPC_backend.git
+[submodule "HPC_backend"]
+	path = HPC_backend
+	url = https://github.com/alaindescartes/HPC_backend.git
+[submodule "server_node"]
+	path = server_node
+	url = https://github.com/alaindescartes/HPC_backend.git
