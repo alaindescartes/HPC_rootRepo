@@ -6,8 +6,12 @@
     "install-client": "cd client && npm install",
     "install-server": "cd server_node/server && npm install",
     "build-client": "cd client && npm run build",
-    "heroku-postbuild": "npm run install-client && npm run install-server && npm run build-client",
+    "heroku-postbuild": "ls -al && ls -al server_node && npm run install-client && npm run install-server && npm run build-client",
     "start": "node server_node/server/server.js"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
   },
   "keywords": [],
   "author": "",
