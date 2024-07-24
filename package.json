@@ -6,7 +6,8 @@
     "install-client": "cd client && npm install",
     "install-server": "cd server_node/server && npm install",
     "build-client": "cd client && npm run build",
-    "postinstall": "npm run install-client && npm run install-server && npm run build-client",
+    "preinstall": "npm run install-client && npm run install-server",
+    "postinstall":  "npm run build-client",
     "start": "node server_node/server/server.js"
   },
   "keywords": [],
